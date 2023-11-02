@@ -1,0 +1,89 @@
+.groupbox {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 15px 20px;
+  width: 44vh;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.headingLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.groupIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.groupName {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1c202c;
+  margin: 0 1vh 0 1vh;
+}
+
+.groupLength {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1c202c;
+}
+
+
+.headingRight {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  width: 5vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+@media screen and (max-width: 1180px) {
+  .groupbox {
+    width: 44vh;
+  }
+}
+
+@media screen and (max-width: 1165px) {
+  .groupbox {
+    width: 42vh;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .groupbox {
+    width: 40vh;
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  .groupbox {
+    width: 45vh;
+  }
+}
+
+@media screen and (max-width: 797px) {
+  .groupbox {
+    width: 40vh;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .groupbox {
+    width: 45vh;
+  }
+}

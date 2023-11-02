@@ -1,0 +1,24 @@
+.select {
+  outline: none;
+  background-color: white;
+  font-size: 13px;
+  font-weight: 600;
+  color: #1c202c;
+  cursor: pointer;
+  border: 2px solid #eceef3;
+  padding: 2px 1px;
+  width: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.option{
+    font-size: 13px;
+    font-weight: 600;
+    color: #1c202c;
+    cursor: pointer;
+    padding: 5px 1px;
+    
+}

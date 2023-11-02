@@ -1,0 +1,26 @@
+.custom_alert_success {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color:green; 
+  color: #fff; 
+  padding: 0px 20px;
+  border-radius: 3px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.custom_alert_error {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color:red; 
+  color: #fff; 
+  padding: 0px 20px;
+  border-radius: 3px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
